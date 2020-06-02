@@ -41,5 +41,23 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-//updating the nav bar
+//updating the nav bar and links
+ const navOne=document.querySelector('a:nth-of-type(1)')
+ navOne.textContent='Services'
+
+ const navTwo=document.querySelector('a:nth-of-type(2)')
+ navTwo.textContent='Product'
+
+ const navThree=document.querySelector('a:nth-of-type(3)')
+ navThree.textContent='Vision'
+ 
+
+ const navFour=document.querySelector('a:nth-of-type(4)')
+ navFour.textContent='Features'
+
+ const navFive=document.querySelector('a:nth-of-type(5)')
+ navFive.textContent='About'
+
+ const navSix=document.querySelector('a:nth-of-type(6)')
+ navSix.textContent='Contact'
 
