@@ -67,6 +67,19 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
  const circleImage=document.querySelector('#cta-img')
 
  circleImage.setAttribute('src','img/header-img.png')
+ 
+ //end top section-Image
 
+ //top section-H1 Text
+ const boldText=document.querySelector('h1')
+boldText.textContent='Dom Is Awesome'
+
+//end top Section-H1 Text
+
+//top section-Button
+const btn=document.querySelector('button')
+btn.textContent='Get Started'
+
+//end top Section-Button
 
 
