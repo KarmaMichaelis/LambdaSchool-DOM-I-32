@@ -61,3 +61,12 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
  const navSix=document.querySelector('a:nth-of-type(6)')
  navSix.textContent='Contact'
 
+ //end of NavBar
+
+ //top section-Image
+ const circleImage=document.querySelector('#cta-img')
+
+ circleImage.setAttribute('src','img/header-img.png')
+
+
+
