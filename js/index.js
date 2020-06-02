@@ -105,6 +105,27 @@ const fourthH4=document.querySelector('.bottom-content .text-content:nth-of-type
 fourthH4.textContent='Product'
 
 const fifthH4=document.querySelector('.bottom-content .text-content:nth-of-type(1)  h4')
-fifthH4.textContent='Vision'
+fifthH4.textContent='Services'
 
 //middle-bottom section h4 complete
+
+//middle-top section-para
+const paraOne=document.querySelector('.top-content .text-content:nth-of-type(1)  p')
+paraOne.textContent='Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+const paraTwo=document.querySelector('.top-content .text-content:nth-of-type(2)  p')
+paraTwo.textContent='About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+//end middle-top section para
+
+//middle-bottom section para
+const paraThree=document.querySelector('.bottom-content .text-content:nth-of-type(1)  p')
+paraThree.textContent='Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+const paraFour=document.querySelector('.bottom-content .text-content:nth-of-type(2)  p')
+paraFour.textContent='Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+const paraFive=document.querySelector('.bottom-content .text-content:nth-of-type(3)  p')
+paraFive.textContent='Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+//end middle-bottom section-para
