@@ -82,10 +82,29 @@ btn.textContent='Get Started'
 
 //end top Section-Button
 
-//bottom section-Image
+//middle section-Image
 const codeImage=document.querySelector('#middle-img')
 codeImage.setAttribute('src', 'img/mid-page-accent.jpg')
 
-//end bottom section-Image
+//end middle section-Image
 
+//middle-top section-H4
+const firstH4=document.querySelector('.top-content .text-content:nth-of-type(1)  h4')
+firstH4.textContent='Features'
 
+const secondH4=document.querySelector('.top-content .text-content:nth-of-type(2) h4')
+secondH4.textContent='About'
+
+//end middle-top section h4
+
+//middle-bottom section h4
+const thirdH4=document.querySelector('.bottom-content .text-content:nth-of-type(3)  h4')
+thirdH4.textContent='Vision'
+
+const fourthH4=document.querySelector('.bottom-content .text-content:nth-of-type(2)  h4')
+fourthH4.textContent='Product'
+
+const fifthH4=document.querySelector('.bottom-content .text-content:nth-of-type(1)  h4')
+fifthH4.textContent='Vision'
+
+//middle-bottom section h4 complete
