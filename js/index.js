@@ -72,7 +72,7 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
  //top section-H1 Text
  const boldText=document.querySelector('h1')
-boldText.textContent='Dom Is Awesome'
+boldText.textContent='Dom Is  Awesome'
 
 //end top Section-H1 Text
 
@@ -81,5 +81,11 @@ const btn=document.querySelector('button')
 btn.textContent='Get Started'
 
 //end top Section-Button
+
+//bottom section-Image
+const codeImage=document.querySelector('#middle-img')
+codeImage.setAttribute('src', 'img/mid-page-accent.jpg')
+
+//end bottom section-Image
 
 
