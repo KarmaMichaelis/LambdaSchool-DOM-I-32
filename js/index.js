@@ -129,3 +129,24 @@ const paraFive=document.querySelector('.bottom-content .text-content:nth-of-type
 paraFive.textContent='Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 
 //end middle-bottom section-para
+
+//footer/contact section
+
+//footer/contact h4
+const contactHeader=document.querySelector('.contact h4')
+contactHeader.textContent='Contact'
+
+//end footer h4
+
+//footer/contact para
+const contactInfoOne=document.querySelector('.contact p:nth-of-type(1)')
+contactInfoOne.textContent='123 Way 456 Street Somewhere, USA'
+
+const contactInfoTwo=document.querySelector('.contact p:nth-of-type(2)')
+contactInfoTwo.textContent='1 (888) 888-8888'
+
+const contactInfoThree=document.querySelector('.contact p:nth-of-type(3)')
+contactInfoThree.textContent='sales@greatidea.io'
+
+const copyRight=document.querySelector('footer p')
+copyRight.textContent='Copyright Great Idea! 2018'
